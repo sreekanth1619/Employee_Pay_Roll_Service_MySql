@@ -54,3 +54,8 @@ set geneder = 'M'
 where id > 0;
 
 select * from employee_payroll;
+
+-- UC-7
+
+select sum(salary) from employee_payroll
+Where gender = 'M' group by gender;
