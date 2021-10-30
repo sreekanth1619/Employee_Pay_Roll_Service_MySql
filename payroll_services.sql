@@ -31,3 +31,7 @@ values('Utkarsh', 45000, '2020-02-20');
 
 insert into employee_payroll (name,salary,startDate)
 values('Ravi', 25000, '2020-10-10');
+
+-- UC4
+
+select * from employee_payroll;
