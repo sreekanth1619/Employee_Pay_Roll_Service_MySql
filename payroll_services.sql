@@ -31,3 +31,17 @@ values('Utkarsh', 45000, '2020-02-20');
 
 insert into employee_payroll (name,salary,startDate)
 values('Ravi', 25000, '2020-10-10');
+
+-- UC4
+
+select * from employee_payroll;
+
+-- UC5
+
+select *
+ from employee_payroll 
+ where salary > 40000;
+
+select *
+from employee_payroll
+where startDate between '2020-01-01' AND Date(now());
